@@ -21,9 +21,20 @@ class Examples: QuickSpec {
                 expect(variable).to(equal(4))
             })
             
-            pending("should be a float", {
-                expect(variable is Float).to(beTruthy())
+            it("should be a float", {
+//                var isFloat = variable is Float
+//                expect(isFloat).to(beTruthy())
             })
         }
+        
+        describe("type conversion ", {
+            it("should be explicit", {
+                let label = "The width is "
+                let width = 90
+                let widthLabel = label + String(width)
+                expect(widthLabel).to(equal("The width is 90"))
+            })
+        })
     }
+    
 }
