@@ -35,6 +35,16 @@ class Examples: QuickSpec {
                 expect(widthLabel).to(equal("The width is 90"))
             })
         })
+        
+        describe("string variable interpolation", {
+            it("should include a floating point calculation in string", {
+                
+                let height:Float = 10
+                let stringOutput = "Height \(height + 0.5)m"
+
+                expect(stringOutput).to(equal("Height 10.5m"))
+            })
+        })
     }
     
 }
