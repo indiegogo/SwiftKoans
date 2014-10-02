@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A206B52619DDAE6800C46C21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A206B51019DDAE2900C46C21 /* Quick.framework */; };
 		A206B52919DDAE8100C46C21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A206B51F19DDAE3800C46C21 /* Nimble.framework */; };
+		A206B52B19DDAF5B00C46C21 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206B52A19DDAF5B00C46C21 /* Examples.swift */; };
 		A29C4F0519DDACE400B205D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C4F0419DDACE400B205D8 /* AppDelegate.swift */; };
 		A29C4F0719DDACE400B205D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C4F0619DDACE400B205D8 /* ViewController.swift */; };
 		A29C4F0A19DDACE400B205D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29C4F0819DDACE400B205D8 /* Main.storyboard */; };
@@ -86,6 +87,7 @@
 /* Begin PBXFileReference section */
 		A206B50719DDAE2900C46C21 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = ../../Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		A206B51719DDAE3800C46C21 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = ../../Vendor/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		A206B52A19DDAF5B00C46C21 /* Examples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
 		A29C4EFF19DDACE400B205D8 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29C4F0319DDACE400B205D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A29C4F0419DDACE400B205D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			children = (
 				A29C4F1A19DDACE400B205D8 /* ExampleTests.swift */,
 				A29C4F1819DDACE400B205D8 /* Supporting Files */,
+				A206B52A19DDAF5B00C46C21 /* Examples.swift */,
 			);
 			path = ExampleTests;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A206B52B19DDAF5B00C46C21 /* Examples.swift in Sources */,
 				A29C4F1B19DDACE400B205D8 /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
